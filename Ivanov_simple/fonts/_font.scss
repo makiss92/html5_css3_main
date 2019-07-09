@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'Arial';
+	font-weight: normal;
+	font-style: normal;
+  src: url(./fonts/ArialMT.eot); /* IE9 Compat Modes */
+  src: local('ArialMT'), local('ArialMT'),
+  url(./fonts/ArialMT.eot) format('embedded-opentype'), 
+  url(./fonts/ArialMT.woff) format('woff'),
+  url(./fonts/ArialMT.ttf) format('truetype'),
+  url(./fonts/ArialMT.svg#ArialMT) format('svg');
+}
