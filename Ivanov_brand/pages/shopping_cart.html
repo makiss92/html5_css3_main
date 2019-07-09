@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<meta charset="UTF-8">
+	<title>Shopping Cart</title>
+	<link rel="stylesheet" type="text/css" href="../styles/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../styles/style.css">
+	<link rel="stylesheet" type="text/css" href="../styles/style_shopping_cart.css">
+</head>
+<body>
+	<header>
+		<div class="logo">
+		</div>
+		<nav class="navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a href="#"><img class="logo" src="../img/Group_2.png" alt="brand" title="brand"></a>
+					<a class="navbar-brand" href="#">Bran<b>d</b></a>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="dropdown scrollable-menu">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Browse <span class="caret"></span></a>
+							<ul class="dropdown-menu browse_menu_drop">
+								<li class="category_name">WOMEN</li>
+								<li class="divider"></li>
+								<li><a href="#">Dresses</a></li>
+								<li><a href="#">Tops</a></li>
+								<li><a href="#">Sweaters/Knits</a></li>
+								<li><a href="#">Jackets/Coats</a></li>
+								<li><a href="#">Blazers</a></li>
+								<li><a href="#">Denim</a></li>
+								<li><a href="#">Leggings/Pants</a></li>
+								<li><a href="#">Skirts/Shorts</a></li>
+								<li><a href="#">Accessories</a></li>
+								<li><a href="#">Bags/Purses</a></li>
+								<li><a href="#">Swimwear/Underwear</a></li>
+								<li><a href="#">Nightwear</a></li>
+								<li><a href="#">Shoes</a></li>
+								<li><a href="#">Beauty</a></li>
+								<li class="category_name">MEN</li>
+								<li class="divider"></li>
+								<li><a href="#">Tees/Tank tops</a></li>
+								<li><a href="#">Shirts/Polos</a></li>
+								<li><a href="#">Sweaters</a></li>
+								<li><a href="#">Sweatshirts/Hoodies</a></li>
+								<li><a href="#">Blazers</a></li>
+								<li><a href="#">Jackets/vests</a></li>
+							</ul>
+						</li>
+					</ul>
+					<form class="navbar-form navbar-left">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Search for item...">
+						</div>
+						<button type="submit" class="btn btn-default"><img src="../img/search.png" alt="search"></button>
+					</form>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#" class="basket" data-toggle="dropdown"><img src="../img/Forma_1.png" alt=""><span class="badge">2</span></a>
+							<div class="dropdown-menu basket_menu" role="menu">
+								<div class="media one_block_tovar">
+									<a class="pull-left" href="#">
+										<img class="media-object" src="../img/Layer_43.png" alt="...">
+									</a>
+									<div class="media-body">
+										<h4 class="media-heading to1">Rebox Zane</h4>
+										<img class="rate" src="../img/rate.png" alt="rate">
+										<i class="fa fa-times-circle one1_dell" aria-hidden="true"></i>
+										<p>1 x $250</p>
+									</div>
+								</div>
+								<div class="media two_block_tovar">
+									<a class="pull-left" href="#">
+										<img class="media-object" src="../img/Layer_44.png" alt="...">
+									</a>
+									<div class="line_basket"></div>
+									<div class="media-body">
+										<h4 class="media-heading to2">Rebox Zane</h4>
+										<img class="rate" src="../img/rate.png" alt="rate">
+										<i class="fa fa-times-circle one2_dell" aria-hidden="true"></i>
+										<p>1 x $250</p>
+									</div>
+								</div>
+								<h2>TOTAL</h2>
+								<h3>$500.00</h3>
+								<div class="checkout">
+									<a href="checkout.html" class="btn btn-default">Checkout</a>
+								</div>		
+								<div class="to_cart">
+									<a href="#" class="btn btn-default">GO TO CART</a>
+								</div>	
+							</div>
+						</li>
+						<li class="dropdown2">
+							<a href="#" class="dropdown-toggle2" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">My Account <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Profile</a></li>
+								<li><a href="#">Orders</a></li>
+								<li><a href="#">Help</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="#">Exit</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div><!-- /.navbar-collapse -->  
+			</div><!-- /.container-fluid -->  
+		</nav>
+		<nav class="menu">
+			<ul class="nav">
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="products.html">Man</a></li>
+				<li><a href="#" data-toggle="dropdown">Women</a>
+					<div class="dropdown-menu mega_menu">
+						<div id="angle"></div>
+						<div class="block1">
+							<ul>
+								<li class="category_name2">Women</li>
+								<li class="divider"></li>
+								<li><a href="#">Dresses</a></li>
+								<li><a href="#">Tops</a></li>
+								<li><a href="#">Sweaters/Knits</a></li>
+								<li><a href="#">Jackets/Coats</a></li>
+								<li><a href="#">Blazers</a></li>
+								<li><a href="#">Denim</a></li>
+								<li><a href="#">Leggings/Pants</a></li>
+								<li><a href="#">Skirts/Shorts</a></li>
+								<li><a href="#">Accessories</a></li>
+								<li><a href="#">Bags/Purses</a></li>
+								<li><a href="#">Swimwear/Underwear</a></li>
+								<li><a href="#">Nightwear</a></li>
+								<li><a href="#">Shoes</a></li>
+								<li><a href="#">Beauty</a></li>
+							</ul>
+						</div>
+						<div class="block2">
+							<ul>
+								<li>Women</li>
+								<li class="divider"></li>
+								<li><a href="#">Dresses</a></li>
+								<li><a href="#">Tops</a></li>
+								<li><a href="#">Sweaters/Knits</a></li>
+								<li><a href="#">Jackets/Coats</a></li>
+								<li><a href="#">Blazers</a></li>
+								<li><a href="#">Denim</a></li>
+								<li><a href="#">Leggings/Pants</a></li>
+								<li><a href="#">Skirts/Shorts</a></li>
+								<li><a href="#">Accessories</a></li>
+								<li><a href="#">Bags/Purses</a></li>
+								<li><a href="#">Swimwear/Underwear</a></li>
+								<li><a href="#">Nightwear</a></li>
+								<li><a href="#">Shoes</a></li>
+								<li><a href="#">Beauty</a></li>
+							</ul>
+						</div>
+						<div class="block3">
+							<ul>
+								<li>Women</li>
+								<li class="divider"></li>
+								<li><a href="#">Dresses</a></li>
+								<li><a href="#">Tops</a></li>
+								<li><a href="#">Sweaters/Knits</a></li>
+								<li><a href="#">Jackets/Coats</a></li>
+								<li><a href="#">Blazers</a></li>
+								<li><a href="#">Denim</a></li>
+								<li><a href="#">Leggings/Pants</a></li>
+								<li><a href="#">Skirts/Shorts</a></li>
+								<li><a href="#">Accessories</a></li>
+								<li><a href="#">Bags/Purses</a></li>
+								<li><a href="#">Swimwear/Underwear</a></li>
+								<li><a href="#">Nightwear</a></li>
+								<li><a href="#">Shoes</a></li>
+								<li><a href="#">Beauty</a></li>
+							</ul>
+						</div>
+						<div class="block4">
+							<ul>
+								<li>Women</li>
+								<li class="divider"></li>
+								<li><a href="#">Dresses</a></li>
+								<li><a href="#">Tops</a></li>
+								<li><a href="#">Sweaters/Knits</a></li>
+								<li><a href="#">Jackets/Coats</a></li>
+								<li><a href="#">Blazers</a></li>
+								<li><a href="#">Denim</a></li>
+								<li><a href="#">Leggings/Pants</a></li>
+								<li><a href="#">Skirts/Shorts</a></li>
+								<li><a href="#">Accessories</a></li>
+								<li><a href="#">Bags/Purses</a></li>
+								<li><a href="#">Swimwear/Underwear</a></li>
+								<li><a href="#">Nightwear</a></li>
+								<li><a href="#">Shoes</a></li>
+								<li><a href="#">Beauty</a></li>
+							</ul>
+						</div>
+						<div class="block5">
+							<img src="../img/Layer_42.png" alt="img">
+							<a href="#"><h2>Super sale!</h2></a>
+						</div>
+					</div>
+				</li>
+				<li><a href="#">Kids</a></li>
+				<li><a href="#">Accoseriese</a></li>
+				<li><a href="#">Featured</a></li>
+				<li><a href="#">Hot deals</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<div class="nav_shoppping_cart">
+			<h2>New Arrivals</h2>
+			<ol class="breadcrumb">
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="#">Men</a></li>
+				<li><a href="#">New Arrivals</a></li>
+			</ol>
+		</div>
+
+		<div class="container_shopping_cart">
+			<div class="row basket_big">
+				<table class="table table-hover">
+					<thead>
+						<tr>
+							<th>Product Details</th>
+							<th>Unite Price</th>
+							<th>Quantity</th>
+							<th>Shipping</th>
+							<th>Subtotal</th>
+							<th>Action</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>
+								<figure>
+									<a href="#" class="pull-left"><img src="../img/Layer_43_shop.png" alt=""></a>
+									<figcaption>Mango  People  T-shirt</figcaption>
+									<figcaption><b>Color:</b> Red</figcaption>
+									<figcaption><b>Size:</b> Xll</figcaption>
+								</figure>
+							</td>
+							<td>$150</td>
+							<td><input type="text" class="number" name="number" value="2"></td>
+							<td>FREE</td>
+							<td>$300</td>
+							<td><a href="#"><i class="fa fa-times-circle" aria-hidden="true"></i></a></td>
+						</tr>
+						<tr>
+							<td>
+								<figure>
+									<a href="#" class="pull-left"><img src="../img/Layer_44_shop.png" alt=""></a>
+									<figcaption>Mango  People  T-shirt</figcaption>
+									<figcaption><b>Color:</b> Red</figcaption>
+									<figcaption><b>Size:</b> Xll</figcaption>
+								</figure>
+							</td>
+							<td>$150</td>
+							<td><input type="text" class="number" name="number" value="2"></td>
+							<td>FREE</td>
+							<td>$300</td>
+							<td><a href="#"><i class="fa fa-times-circle" aria-hidden="true"></i></a></td>
+						</tr>
+						<tr>
+							<td>
+								<figure>
+									<a href="#" class="pull-left"><img src="../img/Layer_45_shop.png" alt=""></a>
+									<figcaption>Mango  People  T-shirt</figcaption>
+									<figcaption><b>Color:</b> Red</figcaption>
+									<figcaption><b>Size:</b> Xll</figcaption>
+								</figure>
+							</td>
+							<td>$150</td>
+							<td><input type="text" class="number" name="number" value="2"></td>
+							<td>FREE</td>
+							<td>$300</td>
+							<td><a href="#"><i class="fa fa-times-circle" aria-hidden="true"></i></a></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div class="clear_button">
+				<a href="shopping_cart.html" class="btn btn-default">CLEAR SHOPPING CART</a>
+			</div>
+			<div class="continue_button">
+				<a href="shopping_cart.html" class="btn btn-default">CONTINUE SHOPPING</a>
+			</div>
+			<div class="clearfix"></div>
+			<div class="shipping_address">
+				<h3>Shipping Adress</h3>
+				<form action="shopping_cart.html">
+					<div class="dropdown">
+						<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Bangladesh <span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu">
+							<li><a href="#">U.S.</a></li>
+							<li><a href="#">China</a></li>
+							<li><a href="#">Russia</a></li>
+							<li><a href="#">Vietnam</a></li>
+						</ul>
+					</div>
+					<input class="text_state" type="text" name="state" placeholder="State">
+					<input type="text" name="zip" placeholder="Postcode / Zip">
+					<button type="submit" class="btn btn-default">GET A QUOTE</button>
+				</form>
+			</div>
+			<div class="coupon_discont">
+				<h3>coupon discount</h3>
+				<p>Enter your coupon code if you have one</p>
+				<input type="text" name="state" placeholder="State">
+				<button type="submit" class="btn btn-default">Apply coupon</button>
+			</div>
+
+			<div class="grand_total">
+				<form action="shopping_cart.html">
+					<div class="border1">
+						<span>Sub total &nbsp; $900</span>
+						<span>GRAND TOTAL &nbsp; <b>$900</b></span>
+					</div>
+					<button type="submit" class="btn btn-default">proceed to checkout</button>
+				</form>
+			</div>
+
+
+
+		</div>
+		<div class="clearfix"></div>
+		<div class="subscribe_copy">
+			<div id="carousel" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="../img/Layer_40.png" alt="...">
+						<div class="carousel-caption">
+							<p>“Vestibulum quis porttitor dui! Quisque viverra nunc mi, 
+							a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
+							<h2>Bin Burhan</h2>
+							<h3>Dhaka, Bd</h3>
+						</div>
+					</div>
+					<div class="item">
+						<img src="../img/Layer_40.png" alt="...">
+						<div class="carousel-caption">
+							<p>“Vestibulum quis porttitor dui! Quisque viverra nunc mi, 
+							a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
+							<h2>Bin Burhan</h2>
+							<h3>Dhaka, Bd</h3>
+						</div>
+					</div>
+					<div class="item">
+						<img src="../img/Layer_40.png" alt="...">
+						<div class="carousel-caption">
+							<p>“Vestibulum quis porttitor dui! Quisque viverra nunc mi, 
+							a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
+							<h2>Bin Burhan</h2>
+							<h3>Dhaka, Bd</h3>
+						</div>
+					</div>
+				</div>
+				<ol class="carousel-indicators">
+					<li data-target="#carousel" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel" data-slide-to="1"></li>
+					<li data-target="#carousel" data-slide-to="2"></li>
+				</ol>
+			</div>
+			<div class="line"></div>
+			<section class="subscribe">
+				<h2>Subscribe</h2>
+				<p>FOR OUR NEWLETTER AND PROMOTION</p>
+			</section>
+			<div class="row">
+				<div class="col-lg-7">
+					<form action="checkout.html">
+						<div class="input-group">
+							<input type="email" class="form-control" placeholder="Enter Your Email">
+							<span class="input-group-btn">
+								<button class="btn btn-default" type="submit">Subscribe</button>
+							</span>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<div class="logo_footer">
+			<a href="#"><img class="logo2" src="../img/Group_2.png" alt="brand" title="brand"></a>
+			<a class="navbar-brand" href="#">Bran<b>d</b></a>
+			<p>Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships. </p>
+			<p>Efficiently plagiarize 24/365 action items and focused infomediaries.
+			Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</p>
+		</div>
+		<table class="footer_table">
+			<thead>
+				<tr>
+					<th>COMPANY</th>
+					<th>INFORMATION</th>
+					<th>SHOP CATEGORY</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><a href="#">Home</a></td>
+					<td><a href="#">Tearms & Condition</a></td>
+					<td><a href="#">Men</a></td>
+				</tr>
+				<tr>
+					<td><a href="#">Shop</a></td>
+					<td><a href="#">Privacy Policy</a></td>
+					<td><a href="#">Women</a></td>
+				</tr>
+				<tr>
+					<td><a href="#">About</a></td>
+					<td><a href="#">How to Buy</a></td>
+					<td><a href="#">Child</a></td>
+				</tr>
+				<tr>
+					<td><a href="#">How It Works</a></td>
+					<td><a href="#">How to Sell</a></td>
+					<td><a href="#">Apparel</a></td>
+				</tr>
+				<tr>
+					<td><a href="#">Contact</a></td>
+					<td><a href="#">Promotion</a></td>
+					<td><a href="#">Brows All</a></td>
+				</tr>
+			</tbody>
+		</table>
+		<div class="footer_down">
+			<p>&copy; 2017  Brand  All Rights Reserved.</p>
+			<div class="social_link">
+				<div class="social facebook">
+					<a href="#" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>    
+				</div>
+				<div class="social twitter">
+					<a href="#" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+				</div>
+				<div class="social linkedin">
+					<a href="#" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+				</div>
+				<div class="social pinterest">
+					<a href="#" target="_blank"><i class="fa fa-pinterest fa-2x"></i></a>
+				</div> 
+				<div class="social google-pluse">
+					<a href="#" target="_blank"><i class="fa fa-google-plus fa-2x"></i></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://use.fontawesome.com/3093dc7bb1.js"></script>
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+</body>
+</html>
