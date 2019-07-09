@@ -1,0 +1,409 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+@font-face {
+	font-family: Maven Pro;
+	src: url(../fonts/MavenPro-Regular.ttf);
+}
+
+@font-face {
+	font-family: MavenPro-Medium;
+	src: url(../fonts/MavenPro-Light.ttf);
+}
+
+@font-face {
+	font-family: MavenPro-Black;
+	src: url(../fonts/MavenPro-Black.ttf);
+}
+
+@font-face {
+	font-family: MavenPro-Bold;
+	src: url(../fonts/MavenPro-Bold.ttf);
+}
+
+body {
+	font-family: 'Maven Pro', sans-serif;   
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-image: url(../img/Header_Background.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 770px;
+}
+
+.menu_header h2,
+.logo_footer + h2 {
+	margin-left: 20px;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 29px;
+	letter-spacing: 6px;
+}
+
+.menu_header nav a {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 29px;
+	text-decoration: none; 
+	word-spacing: 20px;
+	margin-left: 40px;
+	opacity: 0.69;
+}
+
+.menu_header nav a:hover {
+	border-bottom: 2px solid white;
+	opacity: 1.69;
+	color: white;
+}
+
+.menu_header .btn-outline-primary {
+	min-width: 110px;
+	margin-left: 40px;
+	border: 1px solid #ffffff;
+	border-radius: 50px;
+	font-size: 12px;
+	color: white;
+	font-weight: 700;
+	line-height: 32px;
+	text-transform: uppercase;
+	letter-spacing: 0.6px;
+	opacity: 0.69;
+}
+
+.menu_header .btn-outline-primary:hover {
+	box-shadow: 0 0 82px 10px rgba(204, 204, 223, 0.71);
+	border-radius: 30px;
+	background-color: #ffffff;
+	opacity: 1.69;
+	color: #9fa4af;
+}
+
+.pricing_header {
+	margin-top: 90px;
+}
+
+.pricing_header h6 {
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 32px;
+	letter-spacing: 0.7px;
+	margin-bottom: 20px;
+}
+
+.pricing_header h1 {
+	font-size: 86px;
+	font-weight: 800;
+	line-height: 72px;
+	letter-spacing: -2.42px;
+	margin-bottom: 40px;
+}
+
+.pricing_header p {
+	margin: 0 auto;
+	width: 385px;
+	height: 50px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+	overflow: hidden;
+	margin-bottom: 100px;
+}
+
+.button_header {
+	margin-top: 150px;
+	margin: 0 auto;
+	width: 64px;
+	height: 64px;
+	box-shadow: 0 0 19px 2px rgba(255, 255, 255, 0.4);
+	border-radius: 32px;
+	background-color: #ffffff;
+}
+
+.button_header i {
+	padding-top: 25px;
+	width: 14px;
+	height: 26px;
+	color: #9fa4af;
+}
+
+.button_header:hover {
+	box-shadow: 0 0 82px 10px rgba(204, 204, 223, 0.71);
+	border-radius: 30px;
+	background-color: #ffffff;
+	opacity: 1.69;
+	color: #9fa4af;
+}
+
+.select_plan {
+	margin-top: 90px;
+}
+
+.select_plan h6 {
+	color: #9fa4af;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 32px;
+	text-transform: uppercase;
+	letter-spacing: 0.7px;
+	margin-bottom: 20px;
+}
+
+.select_plan h1 {
+	color: #4f4f6f;
+	font-size: 60px;
+	font-weight: 6 00;
+	line-height: 72px;
+	letter-spacing: -1.69px;
+	margin-bottom: 15px;
+}
+
+.select_plan p {
+	margin: 0 auto;
+	width: 380px;
+	height: 53px;
+	color: #9fa4af;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+	overflow: hidden;
+	margin-bottom: 15px;
+	margin-bottom: 50px;
+}
+
+main .container {
+	padding: 0;
+	margin-bottom: 80px;
+}
+
+.card_proposal {
+	min-width: 230px;
+	border-radius: 30px;
+	border: 1px solid #d7dbe8;
+	background-color: #ffffff;
+}
+
+.card_proposal div:hover {
+	box-shadow: 0 0 82px 10px rgba(204, 204, 223, 0.71);
+	border-radius: 30px;
+	background-color: #ffffff;
+}
+
+.card_proposal .card-body {
+	padding: 40px;
+}
+
+.card_proposal .card-body img {
+	height: 102px;
+}
+
+.card_proposal .card-body h3 {
+	margin-top: 30px;
+	color: #9fa4af;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 32px;
+	text-transform: uppercase;
+	letter-spacing: 0.7px;
+}
+
+.card_proposal .card-body h2 {
+	color: #4f4f6f;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 72px;
+	font-size: 60px;
+	letter-spacing: -1.69px;
+}
+
+.card_proposal .card-body h2 > sup {
+	position: relative;
+	top: -25px;
+	color: #4f4f6f;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 0.55px;
+	letter-spacing: -0.64px;
+}
+
+.card_proposal .card-body h2 > small {
+	color: #4f4f6f;
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: -0.51px;
+}
+
+.card_proposal .card-body p {;
+	color: #9fa4af;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+	margin-bottom: 50px;	
+}
+
+.card_proposal .card-body .btn {
+	margin: 0 auto;
+	width: 190px;
+	height: 50px;
+	box-shadow: 0 0 19px 2px rgba(204, 204, 223, 0.5);
+	border-radius: 25px;
+	border: 1px solid #d7dbe8;
+	background-color: #ffffff;
+	color: #c2c9db;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 32px;
+	text-transform: uppercase;
+	letter-spacing: 0.6px;
+}
+.card_proposal .card-body a:hover {
+	text-decoration: none;
+}
+
+.card_proposal .card-body button:hover {
+	border-radius: 25px;
+	background-color: #6e45e2;
+	color: #ffffff;
+}
+
+.take_control {
+	background-image: url(../img/BACK.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 522px;
+	background-color: #f9fafc;
+}
+
+.take_control h6 {
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 32px;
+	text-transform: uppercase;
+	letter-spacing: 0.7px;
+}
+
+.take_control h2 {
+	color: #ffffff;
+	font-size: 60px;
+	font-weight: 600;
+	line-height: 72px;
+	letter-spacing: -1.69px;
+	margin-bottom: 30px;
+}
+
+.take_control .get_started {
+	width: 190px;
+	height: 50px;
+	border-radius: 25px;
+	border: 1px solid #d7dbe8;
+	background-color: #ffffff;
+	color: #c2c9db;
+	margin-right: 20px;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 37px;
+	text-transform: uppercase;
+	letter-spacing: 0.6px;
+}
+
+.take_control .get_started:hover {
+	border-radius: 25px;
+	background-color: #6e45e2;
+	border: none;
+	color: #ffffff;
+}
+
+.take_control .explore {
+	min-width: 190px;
+	height: 50px;
+	border-radius: 25px;
+	border: 1px solid #d7dbe8;
+	background-color: #ffffff;
+	color: #c2c9db;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 37px;
+	text-transform: uppercase;
+	letter-spacing: 0.6px;
+}
+
+.take_control .explore:hover {
+	border-radius: 25px;
+	background-color: #6e45e2;
+	border: none;
+	color: #ffffff;
+}
+
+
+.footer_menu nav a {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 29px;
+	text-decoration: none; 
+	word-spacing: 20px;
+	margin-left: 40px;
+	opacity: 0.69;
+	color: #6a6a77;
+	font-weight: 600;  
+}
+
+.footer_menu a:hover {
+	border-bottom: 2px solid white;
+	opacity: 1.69;
+	color: #756edc;
+}
+
+.footer_menu .btn-outline-primary {
+	min-width: 150px;
+	height: 50px;
+	margin-left: 40px;
+	border: 1px solid #6a6a77;
+	border-radius: 50px;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 37px;
+	text-transform: uppercase;
+	letter-spacing: 0.6px;
+	opacity: 0.69;
+	color: #6a6a77;
+}
+
+.footer_menu .btn-outline-primary:hover {
+	box-shadow: 0 0 82px 10px rgba(204, 204, 223, 0.71);
+	border-radius: 30px;
+	background-color: #6e45e2;
+	color: #ffffff;
+	opacity: 1.69;
+	border-bottom: transparent;
+}
+
+.footer_down .copy {
+	opacity: 0.5;
+	color: #6a6a77;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 19px;
+}
+
+.footer_down .social {
+	float: right;
+	margin-right: 50px;
+	word-spacing: 10px;
+}
+.footer_down .social i {
+	opacity: 0.5;
+	color: #6a6a77;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 19px;
+}
+
+.footer_down .social i:hover {
+	opacity: 1.5;
+	color:#6e45e2;
+}
