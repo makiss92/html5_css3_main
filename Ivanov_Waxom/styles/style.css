@@ -31,7 +31,8 @@ header {
     header .header-slider .carousel-indicators {
       bottom: 25px; }
       header .header-slider .carousel-indicators li {
-        margin-right: 6px;
+        margin-left: 7px;
+        margin-right: 7px;
         width: 11px;
         height: 11px;
         background-color: #ffffff;
@@ -40,9 +41,7 @@ header {
         border-radius: 50%; }
         header .header-slider .carousel-indicators li:hover {
           position: relative;
-          top: 7px;
-          width: 15px;
-          height: 15px;
+          top: 9px;
           border: 2px solid #d3c1ad;
           background-color: transparent; }
   header .slogan {
